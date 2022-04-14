@@ -9,7 +9,7 @@ The CADAA (Computer Aided Detection Agonist Antagonist) is an R-Shiny applicatio
 #### Install CRAN dependencies
 
 ```r
-cran_pkgs <- c("igraph", "shiny","shinyjs", "shinyBS", "shinydashboard", "ggplot2", "dnet","ChemmineR","digest")
+cran_pkgs <- c("igraph", "shiny", "shinyBS", "shinydashboard", "ggplot2", "dnet","ChemmineR","digest")
 
 cran_pkgs.inst <- cran_pkgs[!(cran_pkgs %in% rownames(installed.packages()))]
 
